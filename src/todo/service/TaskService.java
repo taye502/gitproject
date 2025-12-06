@@ -157,6 +157,35 @@ public class TaskService {
     public ArrayList<Task> getTasks() {
         return tasks;
     }
+    
+    /**
+     * 
+     * 指定した日付(today)を過ぎている期限付きタスクを表示する
+     */
+    public void printOverdueTasks(String today) {
+        System.out.println("\n=== 期限切れタスクの確認 (" + today + " 時点) ===");
+        boolean found = false;
+
+      
+        for (Task task : tasks) {
+            
+            
+            // タスクがDeadlineTask型、かつ 期限が今日より前(小さい)場合
+            if (task instanceof todo.model.DeadlineTask) {
+                todo.model.DeadlineTask dt = (todo.model.DeadlineTask) task;
+                
+                // 文字列同士の比較 
+                if (dt.getDeadline().compareTo(today) < 0) {
+                    System.out.println(" [期限切れ!] " + dt);
+                    found = true;
+                }
+            }
+        }
+
+        if (!found) {
+            System.out.println(" 期限切れのタスクはありません。");
+        }
+    }
 
 
 }
