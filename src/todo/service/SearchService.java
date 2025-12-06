@@ -1,8 +1,8 @@
-package service;
+package todo.service;
 
 import java.util.ArrayList;
 
-import model.Task;
+import todo.model.Task;
 
 public class SearchService {
 

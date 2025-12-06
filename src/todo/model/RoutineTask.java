@@ -1,6 +1,6 @@
-package model;
+package todo.model;
 
-import exception.InvalidTaskException;
+import todo.exception.InvalidTaskException;
 
 /**
  * ルーチンワーク（繰り返しタスク）を表すサブクラス。

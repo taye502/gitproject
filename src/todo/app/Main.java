@@ -1,18 +1,18 @@
-package app;
+package todo.app;
 
-import exception.InvalidProgressException;
-import exception.InvalidTaskException;
-import interfaces.SortStrategy;
-import model.Task;
-import service.ImportantTaskFactory;
-import service.RoutineTaskFactory;
-import service.SearchService;
-import service.SortByIdAsc;
-import service.SortByUrgentLevelDesc;
-import service.TagService;
-import service.TaskChangeLogger;
-import service.TaskFactory;
-import service.TaskService;
+import todo.exception.InvalidProgressException;
+import todo.exception.InvalidTaskException;
+import todo.interfaces.SortStrategy;
+import todo.model.Task;
+import todo.service.ImportantTaskFactory;
+import todo.service.RoutineTaskFactory;
+import todo.service.SearchService;
+import todo.service.SortByIdAsc;
+import todo.service.SortByUrgentLevelDesc;
+import todo.service.TagService;
+import todo.service.TaskChangeLogger;
+import todo.service.TaskFactory;
+import todo.service.TaskService;
 
 public class Main {
 	public static void main(String[] args) {

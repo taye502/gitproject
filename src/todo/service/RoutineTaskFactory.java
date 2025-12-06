@@ -1,7 +1,7 @@
-package service;
+package todo.service;
 
-import model.RoutineTask;
-import model.Task;
+import todo.model.RoutineTask;
+import todo.model.Task;
 
 public class RoutineTaskFactory extends TaskFactory {
     @Override

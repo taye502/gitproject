@@ -1,11 +1,11 @@
-package model;
+package todo.model;
 
 import java.util.ArrayList;
 
-import exception.DuplicateTagException;
-import exception.InvalidTaskException;
-import interfaces.TaskObserver;
-import service.TagUtils;
+import todo.exception.DuplicateTagException;
+import todo.exception.InvalidTaskException;
+import todo.interfaces.TaskObserver;
+import todo.service.TagUtils;
 
 /**
  * タスク管理の基底クラス。

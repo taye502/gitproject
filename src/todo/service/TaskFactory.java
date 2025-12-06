@@ -1,6 +1,6 @@
-package service;
+package todo.service;
 
-import model.Task;
+import todo.model.Task;
 
 public abstract class TaskFactory {
     public abstract Task createTask(int id, String title, String desc);

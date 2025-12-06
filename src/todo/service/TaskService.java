@@ -1,12 +1,12 @@
-package service;
+package todo.service;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import exception.InvalidProgressException;
-import exception.InvalidTaskException;
-import interfaces.SortStrategy;
-import model.Task;
+import todo.exception.InvalidProgressException;
+import todo.exception.InvalidTaskException;
+import todo.interfaces.SortStrategy;
+import todo.model.Task;
 
 /**
  * タスクの登録・更新・削除・検索といったビジネスロジックを担当するサービスクラス。

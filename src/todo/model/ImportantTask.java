@@ -1,6 +1,6 @@
-package model;
+package todo.model;
 
-import exception.InvalidTaskException;
+import todo.exception.InvalidTaskException;
 
 /**
  * 重要タスクを表すサブクラス。

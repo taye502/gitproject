@@ -1,7 +1,7 @@
-package service;
+package todo.service;
 
-import interfaces.SortStrategy;
-import model.Task;
+import todo.interfaces.SortStrategy;
+import todo.model.Task;
 
 public class SortByUrgentLevelDesc implements SortStrategy {
     @Override

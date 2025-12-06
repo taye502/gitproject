@@ -1,7 +1,7 @@
-package service;
+package todo.service;
 
-import interfaces.TaskObserver;
-import model.Task;
+import todo.interfaces.TaskObserver;
+import todo.model.Task;
 
 public class TaskChangeLogger implements TaskObserver {
     @Override

@@ -1,8 +1,8 @@
-package service;
+package todo.service;
 
 import java.util.ArrayList;
 
-import exception.DuplicateTagException;
+import todo.exception.DuplicateTagException;
 
 public final class TagUtils {
 	private TagUtils() {

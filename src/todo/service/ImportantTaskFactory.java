@@ -1,7 +1,7 @@
-package service;
+package todo.service;
 
-import model.ImportantTask;
-import model.Task;
+import todo.model.ImportantTask;
+import todo.model.Task;
 
 public class ImportantTaskFactory extends TaskFactory {
     @Override

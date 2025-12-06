@@ -1,10 +1,10 @@
-package service;
+package todo.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import exception.DuplicateTagException;
-import model.Task;
+import todo.exception.DuplicateTagException;
+import todo.model.Task;
 
 public class TagService {
 

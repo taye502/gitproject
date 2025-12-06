@@ -1,6 +1,6 @@
-package interfaces;
+package todo.interfaces;
 
-import model.Task;
+import todo.model.Task;
 
 public interface TaskObserver {
     void onTaskUpdated(Task task);

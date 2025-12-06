@@ -1,6 +1,6 @@
-package interfaces;
+package todo.interfaces;
 
-import model.Task;
+import todo.model.Task;
 
 public interface SortStrategy {
     int compare(Task t1, Task t2);
